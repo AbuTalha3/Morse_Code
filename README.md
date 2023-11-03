@@ -44,7 +44,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](<replace-with-your-deployment-URL>)
+- [Live Demo Link] Live demo will be added later
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -158,7 +158,7 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
+- [ ] **[Morse Code Translator]**
 - [ ] **[new_feature_2]**
 - [ ] **[new_feature_3]**
 
