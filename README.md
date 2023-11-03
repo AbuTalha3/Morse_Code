@@ -1,55 +1,88 @@
+<a name="readme-top"></a>
+
+<div align="center">
+  <h1><b>Decode Morse code | Ruby Project</b></h1>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [Decode Morse code ](#decode-morse-code-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
+
+---
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Morse Code] <a name="about-project"></a>
-
-> Describe your project in 1 or 2 sentences.
+#  Decode Morse code <a name="about-project"></a>
 
 **[Morse Code]** It can be used to Create a method to decode/interpret a Morse code character and turn into Alphabets to comprehend. Moris Code is basically an old signal system made with dash and dots. Morse code can be memorized and sent in a form perceptible to the human senses, e.g. via sound waves or visible light, such that it can be directly interpreted by persons trained in the skill. Morse code is usually transmitted by on-off keying of an information-carrying medium such as electric current, radio waves, visible light, or sound waves.
 
+---
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Ruby</summary>
+  <ul>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby Official Website</a></li>
+  </ul>
+</details>
+
+---
+
+<!-- Features -->
+
 ### Key Features <a name="key-features"></a>
 
-- **[Morse Code Decoder]**
-
+<ul>
+  <li>Ruby</li>
+  <li>Linters
+    <ul>
+      <li>Rubocop</li>
+    </ul>
+  </li>
+  <li>Follow Microverse's list of best practices</li>
+</ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+---
+
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+<br>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](<replace-with-your-deployment-URL>)
+- Unfortunately, there is no live demo available for this project at the moment.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+---
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -57,107 +90,109 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
+<ul>
+    <li><p>A code editor (we recommend Visual Studio Code)</p></li>
+</ul>
 
-```sh
- gem install rails
-```
- -->
+<ul>
+    <li><p>Git and a GitHub account</p></li>
+</ul>
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder by using this 👇️ command :
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
 ```
---->
+git clone https://github.com/Uzair-Manzoor/MorseCodeDecoder.git
+```
 
 ### Install
 
-Install this project with:
+Go to the project directory:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
 ```
---->
+ cd decode-morse-code-message
+```
+
+Before to run the program, verify that you have Ruby installed on your OS running the following command:
+
+```
+ ruby -v
+```
+
+It should show you the version of ruby ​​installed. If this does not happen and only an error message is displayed, then you should either verify your installation or install Ruby from scratch.
+
+[Download and Install Ruby](https://www.ruby-lang.org/en/downloads/)
+
 
 ### Usage
 
-To run the project, execute the following command:
+Run the following command inside the project folder:
 
-<!--
-Example command:
-
-```sh
-  rails server
 ```
---->
+ ruby morse_code_challenge.rb
+```
+
+
+This will display the following output:
+
+
+```
+ A
+ HELLO
+ HELLO WORLD
+```
+
+This is just a test code. If you want to decode other morse code, you must open the `morse_code_challenge.rb` file using the code editor of your choice and change the argument in the `decode_sentence` function call at the end of the file:
+
+
+```
+sentence = decode_sentence('add-here-the-morse-code-you-want-to-decode')
+```
 
 ### Run tests
 
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+- Not applicable.
 
 ### Deployment
 
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+- Not applicable.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Uzair Manzoor**
 
-👤 **Author1**
+- GitHub: [@UzairManzoor](https://github.com/Uzair-Manzoor)
+- Twitter: [@UzairManzoor](https://x.com/)
+- LinkedIn: [@UzairManzoor](https://www.linkedin.com/in/)
 
-- GitHub: [Uzair-Manzoor](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Abu Talha**
 
-👤 **Author2**
-
-- GitHub: [Abu-Talha](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Abu Talha](https://github.com/abutalha3)
+- Twitter: [@Abu Tallha](https://twitter.com/)
+- LinkedIn: [@Abu Talha](https://www.linkedin.com/in/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-Morse code is usually transmitted by on-off keying of an information-carrying medium such as electric current, radio waves, visible light, or sound waves.
+Upcoming improvements:
 
-- [ ] **[Morse Code Decoder]**
+- [] Improve the algorithm to decode morse code.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 <!-- CONTRIBUTING -->
 
@@ -165,45 +200,32 @@ Morse code is usually transmitted by on-off keying of an information-carrying me
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Uzair-Manzoor/MorseCodeDecoder/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project and know someone who might find it helpful, please share it.
+Or give it a **star** ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I thank Microverse for this fantastic opportunity, and the code reviewers for their precious time, advice and feedback.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+---
 
 <!-- LICENSE -->
 
@@ -212,3 +234,5 @@ I would like to thank...
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
