@@ -189,6 +189,7 @@ sentence = decode_sentence('add-here-the-morse-code-you-want-to-decode')
 Upcoming improvements:
 
 - [] Improve the algorithm to decode morse code.
+- Create a translator to MORSE CODE
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
