@@ -34,7 +34,7 @@
 
 #  Decode Morse code <a name="about-project"></a>
 
-**[Morse Code]** It can be used to Create a method to decode/interpret a `Morse code` character and turn it into an Alphabet to comprehend. `Moris Code` is basically an old signal system made with `dash and dots`. `Morse code` can be memorized and sent in a form perceptible to the human senses, e.g. via sound waves or visible light, such that it can be directly interpreted by persons trained in the skill. Morse code is usually transmitted by on-off keying of an information-carrying medium such as `electric current`, radio waves, visible light, or sound waves.
+**[Morse Code]** It can be used to Create a method to decode/interpret a `Morse code` character and turn it into an Alphabet to comprehend. `Moris Code` is basically an old signal system made with `dash and dots`. `Morse code` can be memorized and sent in a form perceptible to the human senses, e.g. via sound waves or visible light, such that it can be directly interpreted by persons trained in the skill. Morse code is usually transmitted by on-off keying of an information-carrying medium such as `electric current`, `radio waves`, visible light, or sound waves.
 
 ---
 
